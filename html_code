@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<style>
+    body {
+        background-color: antiquewhite;
+    }
+
+    .new-div {
+
+        width: 730px;
+
+        margin-top: 15rem;
+        margin-left: 40rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    button {
+        background-color: rgb(29, 121, 29);
+        width: 15vw;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+
+    .second-div {
+        padding: 40px;
+       background-color: white;
+       height: 35vh;
+       border-radius: 1rem;
+       width: 30rem;
+    }
+
+    .price {
+        color: green;
+    }
+    .first{
+        margin-top: 0px;
+        letter-spacing: 4px;
+    }
+    del{
+        
+         font-size: 20px;
+         color: #70768f;
+        
+    }
+    span{
+         margin-left: 1rem;
+    }
+</style>
+
+<body>
+    <div class="new-div">
+        <div>
+            <img src="cup.png" alt="">
+        </div>
+        <div class="second-div">
+            <p class="first">COFFEE MUG</p>
+            <H1>White Coffee <br> Mug</H1>
+            <p>coffee mugs are designed to expressbr
+                 emotions these are acclaimid for their amazing design & superior
+                quality.
+            </p>
+            <h1 class="price">$149  <del>$230</del></h1>
+            <button> <i class="fa-solid fa-cart-shopping"><span>ADD to Cart</span></i> </button>
+        </div>
+    </div>
+
+   
+    <h1>New Collabrator </h1>
+
+
+    <h2>vashuk </h2>
+
+</body>
+
+</html>
